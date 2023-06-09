@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CupCake.World</name>
+    </assembly>
+    <members>
+        <member name="T:CupCake.World.PlaceWorldEvent">
+            <summary>
+                Occurs when a block is placed.
+            </summary>
+        </member>
+        <member name="P:CupCake.World.PlaceWorldEvent.WorldBlock">
+            <summary>
+                Gets the world block.
+            </summary>
+            <value>
+                The world block.
+            </value>
+        </member>
+        <member name="P:CupCake.World.PlaceWorldEvent.OldWorldBlock">
+            <summary>
+                Gets the old world block.
+            </summary>
+            <value>
+                The old world block.
+            </value>
+        </member>
+        <member name="P:CupCake.World.PlaceWorldEvent.Player">
+            <summary>
+                Gets the player that placed this block.
+            </summary>
+            <value>
+                The player that placed this block.
+            </value>
+        </member>
+        <member name="T:CupCake.World.BlockType">
+            <summary>
+                Represents the types a <see cref="T:CupCake.Messages.Blocks.Block"/> can be.
+            </summary>
+        </member>
+        <member name="F:CupCake.World.BlockType.Normal">
+            <summary>
+                A normal block
+            </summary>
+        </member>
+        <member name="F:CupCake.World.BlockType.Rotatable">
+            <summary>
+                A rotatable block
+            </summary>
+        </member>
+        <member name="F:CupCake.World.BlockType.CoinDoor">
+            <summary>
+                A coin door block
+            </summary>
+        </member>
+        <member name="F:CupCake.World.BlockType.Portal">
+            <summary>
+                A portal block
+            </summary>
+        </member>
+        <member name="F:CupCake.World.BlockType.Sound">
+            <summary>
+                A sound block
+            </summary>
+        </member>
+        <member name="F:CupCake.World.BlockType.Label">
+            <summary>
+                A label block
+            </summary>
+        </member>
+        <member name="F:CupCake.World.BlockType.WorldPortal">
+            <summary>
+                A world portal block
+            </summary>
+        </member>
+        <member name="T:CupCake.World.ResizeWorldEvent">
+            <summary>
+                Occurs when the world size changes.
+            </summary>
+        </member>
+        <member name="P:CupCake.World.ResizeWorldEvent.NewHeight">
+            <summary>
+                Gets the new height.
+            </summary>
+            <value>
+                The new height.
+            </value>
+        </member>
+        <member name="P:CupCake.World.ResizeWorldEvent.NewWidth">
+            <summary>
+                Gets the new width.
+            </summary>
+            <value>
+                The new width.
+            </value>
+        </member>
+        <member name="T:CupCake.World.WorldBlock">
+            <summary>
+                Represents a block in the world.
+            </summary>
+        </member>
+        <member name="M:CupCake.World.WorldBlock.IsSame(CupCake.Messages.Send.IBlockPlaceSendEvent)">
+            <summary>
+                Determines whether the IBlockPlaceSendEvent has the same values as this block.
+            </summary>
+            <param name="other">The IBlockPlaceSendEvent to evaluate.</param>
+            <returns></returns>
+            <exception cref="T:System.NotSupportedException">The given send message is not supported.</exception>
+        </member>
+        <member name="M:CupCake.World.WorldBlock.ToEvent">
+            <summary>
+                Creates an <see cref="T:CupCake.Messages.Send.IBlockPlaceSendEvent"/> object with this block's data.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotSupportedException">The given send message is not supported.</exception>
+        </member>
+        <member name="M:CupCake.World.WorldBlock.Clone">
+            <summary>
+                Clones this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.MetadataKey">
+            <summary>
+                Gets the metadata key.
+            </summary>
+            <value>
+                The metadata key.
+            </value>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.Layer">
+            <summary>
+                Gets the layer.
+            </summary>
+            <value>
+                The layer.
+            </value>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.X">
+            <summary>
+                Gets the x coordinate of this block.
+            </summary>
+            <value>
+                The x coordinate of this block.
+            </value>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.Y">
+            <summary>
+                Gets the y coordinate of this block.
+            </summary>
+            <value>
+                The y coordinate of this block.
+            </value>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.BlockType">
+            <summary>
+                Gets the type of the block.
+            </summary>
+            <value>
+                The type of the block.
+            </value>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.Block">
+            <summary>
+                Gets the block.
+            </summary>
+            <value>
+                The block.
+            </value>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.Metadata">
+            <summary>
+                Gets the metadata.
+            </summary>
+            <value>
+                The metadata.
+            </value>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.Text">
+            <summary>
+                Gets the Text. (Only on label blocks)
+            </summary>
+            <value>
+                The text.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on Label blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.WorldPortalTarget">
+            <summary>
+                Gets the world portal target. (Only on world portal blocks)
+            </summary>
+            <value>
+                The world portal target.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on WorldPortal blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.CoinsToCollect">
+            <summary>
+                Gets the coins to collect. (Only on coin doors)
+            </summary>
+            <value>
+                The coins to collect.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on CoinDoor blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.PortalId">
+            <summary>
+                Gets the portal identifier.  (Only on portal blocks)
+            </summary>
+            <value>
+                The portal identifier.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on Portal blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.PortalTarget">
+            <summary>
+                Gets the portal target.  (Only on portal blocks)
+            </summary>
+            <value>
+                The portal target.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on Portal blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.PortalRotation">
+            <summary>
+                Gets the portal rotation. (Only on portal blocks)
+            </summary>
+            <value>
+                The portal rotation.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on Portal blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.SoundId">
+            <summary>
+                Gets the sound identifier. (Only on sound blocks)
+            </summary>
+            <value>
+                The sound identifier.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on Sound blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.PianoId">
+            <summary>
+                Gets the piano identifier. (Only on piano blocks)
+            </summary>
+            <value>
+                The piano identifier.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on Piano blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.PercussionId">
+            <summary>
+                Gets the percussion identifier. (Only on drum blocks)
+            </summary>
+            <value>
+                The percussion identifier.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on Drum blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.Rotation">
+            <summary>
+                Gets the rotation. (Only on rotatable blocks)
+            </summary>
+            <value>
+                The rotation.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on Rotatable blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.SpikeRotation">
+            <summary>
+                Gets the spike rotation. (Only on spike blocks)
+            </summary>
+            <value>
+                The spike rotation.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on Spike blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.SciFiStraightRotation">
+            <summary>
+                Gets the scifi straight rotation. (Only on scifi straight blocks)
+            </summary>
+            <value>
+                The scifi straight rotation.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on SciFiStraight blocks.</exception>
+        </member>
+        <member name="P:CupCake.World.WorldBlock.SciFiSlopeRotation">
+            <summary>
+                Gets the scifi slope rotation. (Only on scifi slope blocks)
+            </summary>
+            <value>
+                The scifi slope rotation.
+            </value>
+            <exception cref="T:System.InvalidOperationException">This property can only be accessed on SciFiSlope blocks.</exception>
+        </member>
+        <member name="T:CupCake.World.WorldService">
+            <summary>
+                Class WorldService.
+                Stores all the blocks inside a room.
+            </summary>
+        </member>
+        <member name="M:CupCake.World.WorldService.Enable">
+            <summary>
+                Enables this instance.
+            </summary>
+        </member>
+        <member name="M:CupCake.World.WorldService.Dispose(System.Boolean)">
+            <summary>
+                Releases unmanaged and - optionally - managed resources.
+            </summary>
+            <param name="disposing">
+                <c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only
+                unmanaged resources.
+            </param>
+        </member>
+        <member name="P:CupCake.World.WorldService.RoomWidth">
+            <summary>
+                Gets the width of the room.
+            </summary>
+            <value>
+                The width of the room.
+            </value>
+        </member>
+        <member name="P:CupCake.World.WorldService.RoomHeight">
+            <summary>
+                Gets the height of the room.
+            </summary>
+            <value>
+                The height of the room.
+            </value>
+        </member>
+        <member name="P:CupCake.World.WorldService.Item(CupCake.Messages.Blocks.Layer,System.Int32,System.Int32)">
+            <summary>
+                Gets the <see cref="T:CupCake.World.WorldBlock"/> at the specified location.
+            </summary>
+            <value>
+                The <see cref="T:CupCake.World.WorldBlock"/>.
+            </value>
+            <param name="layer">The layer.</param>
+            <param name="x">The x.</param>
+            <param name="y">The y.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

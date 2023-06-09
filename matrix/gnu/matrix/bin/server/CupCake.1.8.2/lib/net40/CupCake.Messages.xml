@@ -1,0 +1,3215 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CupCake.Messages</name>
+    </assembly>
+    <members>
+        <member name="T:CupCake.Messages.Blocks.PercussionId">
+            <summary>
+                Represents a percussion note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PercussionId.Base1">
+            <summary>
+                The base1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PercussionId.Base2">
+            <summary>
+                The base2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PercussionId.Snare1">
+            <summary>
+                The snare1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PercussionId.Snare2">
+            <summary>
+                The snare2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PercussionId.Cymbal1">
+            <summary>
+                The cymbal1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PercussionId.Cymbal2">
+            <summary>
+                The cymbal2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PercussionId.Cymbal3">
+            <summary>
+                The cymbal3 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PercussionId.Clap">
+            <summary>
+                The clap note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PercussionId.Cymbal4">
+            <summary>
+                The cymbal4 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PercussionId.Maraca">
+            <summary>
+                The maraca note
+            </summary>
+        </member>
+        <member name="T:CupCake.Messages.Blocks.PianoId">
+            <summary>
+                Represents a piano note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.C1">
+            <summary>
+                The c1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.Csharp1">
+            <summary>
+                The csharp1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.D1">
+            <summary>
+                The d1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.Dsharp1">
+            <summary>
+                The dsharp1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.E1">
+            <summary>
+                The e1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.F1">
+            <summary>
+                The f1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.Fsharp1">
+            <summary>
+                The fsharp1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.G1">
+            <summary>
+                The g1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.Gsharp1">
+            <summary>
+                The gsharp1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.A1">
+            <summary>
+                The a1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.Asharp1">
+            <summary>
+                The asharp1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.B1">
+            <summary>
+                The b1 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.C2">
+            <summary>
+                The c2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.Csharp2">
+            <summary>
+                The csharp2
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.D2">
+            <summary>
+                The d2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.Dsharp2">
+            <summary>
+                The dsharp2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.E2">
+            <summary>
+                The e2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.F2">
+            <summary>
+                The f2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.Fsharp2">
+            <summary>
+                The fsharp2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.G2">
+            <summary>
+                The g2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.Gsharp2">
+            <summary>
+                The gsharp2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.A2">
+            <summary>
+                The a2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.Asharp2">
+            <summary>
+                The asharp2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.B2">
+            <summary>
+                The b2 note
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PianoId.C3">
+            <summary>
+                The c3 note
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsCoinDoor(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Checks if the specified block is a coin door or coin gate.
+            </summary>
+            <param name="id">The block to check.</param>
+            <returns><c>true</c> if the specified block is a coin door or coin gate; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsRotatable(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Checks if the specified block is a rotatable block.
+            </summary>
+            <param name="id">The block to check.</param>
+            <returns><c>true</c> if the specified block is a rotatable block; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsSpike(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Checks if the specified block is a spike block.
+            </summary>
+            <param name="id">The block to check.</param>
+            <returns><c>true</c> if the specified block is a spike block; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsSciFiSlope(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Checks if the specified block is a SciFi sloped block.
+            </summary>
+            <param name="id">The block to check.</param>
+            <returns><c>true</c> if the specified block is a SciFi sloped block; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsSciFiStraight(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Checks if the specified block is a SciFi straight block.
+            </summary>
+            <param name="id">The block to check.</param>
+            <returns><c>true</c> if the specified block is a SciFi straight block; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsPiano(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Determines whether the specified block is a piano block.
+            </summary>
+            <param name="id">The block.</param>
+            <returns><c>true</c> if the specified block is a piano block; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsDrum(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Determines whether the specified block is a drum block.
+            </summary>
+            <param name="id">The block.</param>
+            <returns><c>true</c> if the specified block is a drum block; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsSound(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Checks if the specified block is a music block.
+            </summary>
+            <param name="id">The block to check.</param>
+            <returns><c>true</c> if the specified block is a music block; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsPortal(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Checks if the specified block is a portal.
+            </summary>
+            <param name="id">The block to check.</param>
+            <returns><c>true</c> if the specified block is a portal; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsWorldPortal(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Checks if the specified block is a world portal.
+            </summary>
+            <param name="id">The block to check.</param>
+            <returns><c>true</c> if the specified block is a world portal; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:CupCake.Messages.Blocks.BlockUtils.IsLabel(CupCake.Messages.Blocks.Block)">
+            <summary>
+                Checks if the specified block is a sign or a label.
+            </summary>
+            <param name="id">The block to check.</param>
+            <returns><c>true</c> if the specified block is a sign or a label; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="T:CupCake.Messages.Receive.GuardianModeReceiveEvent">
+            <summary>
+                Occurs when the player enters or exits guardian mode.
+            </summary>
+        </member>
+        <member name="T:CupCake.Messages.Receive.ReceiveEvent">
+            <summary>
+                Occurs when an EE message is recieved.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.ReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:CupCake.Messages.Receive.ReceiveEvent.ToString">
+            <summary>
+                Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>A <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="P:CupCake.Messages.Receive.ReceiveEvent.PlayerIOMessage">
+            <summary>
+                Gets the player io message.
+            </summary>
+            <value>The player io message.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.IUserReceiveEvent">
+            <summary>
+                Interface IUserReceiveEvent
+            </summary>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IUserReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="M:CupCake.Messages.Receive.GuardianModeReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.GuardianModeReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.GuardianModeReceiveEvent.IsGuardian">
+            <summary>
+                Gets or sets a value indicating whether this player is in guardian mode.
+            </summary>
+            <value><c>true</c> if this player is in guardian mode; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.GuardianModeReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.IBlockPlaceReceiveEvent">
+            <summary>
+                Interface IBlockPlaceReceiveEvent
+            </summary>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IBlockPlaceReceiveEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IBlockPlaceReceiveEvent.PosX">
+            <summary>
+                Gets or sets the position x.
+            </summary>
+            <value>The position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IBlockPlaceReceiveEvent.PosY">
+            <summary>
+                Gets or sets the position y.
+            </summary>
+            <value>The position y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IBlockPlaceReceiveEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.IMetadataReceiveMessage">
+            <summary>
+                Interface IMetadataReceiveMessage
+            </summary>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IMetadataReceiveMessage.CurrentWoots">
+            <summary>
+                Gets or sets the current woots of the world.
+            </summary>
+            <value>The current woots.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IMetadataReceiveMessage.OwnerUsername">
+            <summary>
+                Gets or sets the owner username of the world.
+            </summary>
+            <value>The owner username.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IMetadataReceiveMessage.Plays">
+            <summary>
+                Gets or sets the plays of the world.
+            </summary>
+            <value>The plays.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IMetadataReceiveMessage.TotalWoots">
+            <summary>
+                Gets or sets the total woots of the world.
+            </summary>
+            <value>The total woots.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IMetadataReceiveMessage.WorldName">
+            <summary>
+                Gets or sets the name of the world.
+            </summary>
+            <value>The name of the world.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.PotionCountReceiveEvent">
+            <summary>
+                Class PotionCountReceiveEvent.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.PotionCountReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.PotionCountReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Send.GuardianModeSendEvent">
+            <summary>
+                Class GuardianMode Send Event
+            </summary>
+        </member>
+        <member name="T:CupCake.Messages.Send.SendEvent">
+            <summary>
+                Class Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.SendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.SendEvent.Cancelled">
+            <summary>
+                Gets or sets a value indicating whether this <see cref="T:CupCake.Messages.Send.SendEvent"/> is cancelled.
+            </summary>
+            <value>
+                <c>true</c> if cancelled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:CupCake.Messages.Send.GuardianModeSendEvent.#ctor(System.Boolean)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.GuardianModeSendEvent"/> class.
+            </summary>
+            <param name="guardianModeEnabled">if set to <c>true</c> then guardian mode enabled.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.GuardianModeSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.GuardianModeSendEvent.GuardianModeEnabled">
+            <summary>
+                Gets or sets a value indicating whether guardian mode is enabled.
+            </summary>
+            <value>
+                <c>true</c> if guardian mode is enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.IBlockPlaceSendEvent">
+            <summary>
+                Interface Block Place Send Event
+            </summary>
+        </member>
+        <member name="T:CupCake.Messages.Send.IEncryptedSendEvent">
+            <summary>
+                Interface Encrypted Send Event
+            </summary>
+        </member>
+        <member name="P:CupCake.Messages.Send.IEncryptedSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.IBlockPlaceSendEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>
+                The layer.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.IBlockPlaceSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.IBlockPlaceSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.IBlockPlaceSendEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>
+                The block.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.ShowPurpleSendEvent">
+            <summary>
+                Class Show Purple Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.ShowPurpleSendEvent.#ctor(System.Boolean)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.ShowPurpleSendEvent"/> class.
+            </summary>
+            <param name="show">whether the switch is enabled (purple gates are solid)</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.ShowPurpleSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.ShowPurpleSendEvent.Show">
+            <summary>
+                Gets or sets a value indicating whether this switch is enabled (purple gates are solid).
+            </summary>
+            <value>
+                <c>true</c> if the switch is enabled (purple gates are solid); otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.User.AccessRight">
+            <summary>
+                Represents the rights of the bot connection in the world.
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.User.AccessRight.None">
+            <summary>
+                Represents the state where the bot doesn't have any rights in the world.
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.User.AccessRight.Edit">
+            <summary>
+                Represents the state where the bot has edit rights in the world.
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.User.AccessRight.Owner">
+            <summary>
+                Represents the state where bot has command access and edit rights in the world.
+            </summary>
+        </member>
+        <member name="T:CupCake.Messages.Blocks.Key">
+            <summary>
+                Describes the door/gate which state has just been changed.
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.Key.Red">
+            <summary>
+                The red door/gate
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.Key.Green">
+            <summary>
+                The green door/gate
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.Key.Blue">
+            <summary>
+                The blue door/gate
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.Key.TimeDoor">
+            <summary>
+                The timed door/gate
+            </summary>
+        </member>
+        <member name="T:CupCake.Messages.Blocks.Layer">
+            <summary>
+                Describes the layer where a block is located on.
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.Layer.Foreground">
+            <summary>
+                The foreground layer (contains solid, action, and decoration blocks).
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.Layer.Background">
+            <summary>
+                The background layer (contains background blocks).
+            </summary>
+        </member>
+        <member name="T:CupCake.Messages.Blocks.PortalRotation">
+            <summary>
+                Describes the direction of a portal.
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PortalRotation.Down">
+            <summary>
+                Portal pointing downwards
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PortalRotation.Left">
+            <summary>
+                Portal pointing to the left
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PortalRotation.Up">
+            <summary>
+                Portal pointing upwards
+            </summary>
+        </member>
+        <member name="F:CupCake.Messages.Blocks.PortalRotation.Right">
+            <summary>
+                Portal pointing to the right
+            </summary>
+        </member>
+        <member name="T:CupCake.Messages.Receive.IUserPosReceiveEvent">
+            <summary>
+                Interface IUserPosReceiveEvent
+            </summary>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IUserPosReceiveEvent.UserPosX">
+            <summary>
+                Gets or sets the user coordinate x.
+            </summary>
+            <value>The user position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.IUserPosReceiveEvent.UserPosY">
+            <summary>
+                Gets or sets the user coordinate y.
+            </summary>
+            <value>The user position y.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.AccessReceiveEvent">
+            <summary>
+                Class Access Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.AccessReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.AccessReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.AddReceiveEvent">
+            <summary>
+                Class Add Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.AddReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.AddReceiveEvent"/> class.
+            </summary>
+            <param name="message">The EE message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.IsGuardian">
+            <summary>
+                Gets or sets whether the user is in guardian mode or not.
+            </summary>
+            <value><c>true</c> if the player has activated guardian mode; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.Coins">
+            <summary>
+                Gets or sets the amount of yellow coins the player has.
+            </summary>
+            <value>The yellow coins.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.BlueCoins">
+            <summary>
+                Gets or sets the amount of blue coins the player has.
+            </summary>
+            <value>The blue coins.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.Face">
+            <summary>
+                Gets or sets the smiley the player has.
+            </summary>
+            <value>The face.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.HasChat">
+            <summary>
+                Gets or sets whether this player may chat using the free-form chat box.
+            </summary>
+            <value><c>true</c> if this player has chat; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.IsClubMember">
+            <summary>
+                Gets or sets whether this player is a club member.
+            </summary>
+            <value><c>true</c> if this player is a club member; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.IsGod">
+            <summary>
+                Gets or sets whether this player has activated god mode.
+            </summary>
+            <value><c>true</c> if this player is in god mode; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.IsMod">
+            <summary>
+                Gets or sets whether this player is a moderator.
+            </summary>
+            <value><c>true</c> if this player is a moderator; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.IsMyFriend">
+            <summary>
+                Gets or sets whether this player is my friend or not.
+            </summary>
+            <value><c>true</c> if this player is my friend; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.IsPurple">
+            <summary>
+                Gets or sets whether the player has toggled a purple switch.
+            </summary>
+            <value><c>true</c> if this instance is purple; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.MagicClass">
+            <summary>
+                Gets or sets the magic class of this player.
+            </summary>
+            <value>The magic class.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.Username">
+            <summary>
+                Gets or sets the username of the player.
+            </summary>
+            <value>The username.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.UserPosX">
+            <summary>
+                Gets or sets the x coordinate of the player.
+            </summary>
+            <value>The user position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.UserPosY">
+            <summary>
+                Gets or sets the y coordinate of the player.
+            </summary>
+            <value>The user position y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AddReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.AllowPotionsReceiveEvent">
+            <summary>
+                Class Allow Potions Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.AllowPotionsReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.AllowPotionsReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AllowPotionsReceiveEvent.Allowed">
+            <summary>
+                Gets or sets a value indicating whether this <see cref="T:CupCake.Messages.Receive.AllowPotionsReceiveEvent"/> potions are allowed.
+            </summary>
+            <value><c>true</c> if potions are allowed; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AllowPotionsReceiveEvent.DisabledPotions">
+            <summary>
+                Gets or sets whether potions are disabled.
+            </summary>
+            <value>The disabled potions.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.AutoTextReceiveEvent">
+            <summary>
+                Class Auto-Text Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.AutoTextReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.AutoTextReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AutoTextReceiveEvent.AutoText">
+            <summary>
+                Gets or sets the automatic text value.
+            </summary>
+            <value>The automatic text.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.AutoTextReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.BlockPlaceReceiveEvent">
+            <summary>
+                Class Block Place Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.BlockPlaceReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.BlockPlaceReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.BlockPlaceReceiveEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.BlockPlaceReceiveEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.BlockPlaceReceiveEvent.PosX">
+            <summary>
+                Gets or sets the position x of the player.
+            </summary>
+            <value>The position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.BlockPlaceReceiveEvent.PosY">
+            <summary>
+                Gets or sets the position y of the player.
+            </summary>
+            <value>The position y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.BlockPlaceReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.ClearReceiveEvent">
+            <summary>
+                Class Clear Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.ClearReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ClearReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.ClearReceiveEvent.FillBlock">
+            <summary>
+                Gets or sets the fill block.
+            </summary>
+            <value>The fill block.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.ClearReceiveEvent.BorderBlock">
+            <summary>
+                Gets or sets the border block.
+            </summary>
+            <value>The border block.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.ClearReceiveEvent.RoomHeight">
+            <summary>
+                Gets or sets the height of the room.
+            </summary>
+            <value>The height of the room.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.ClearReceiveEvent.RoomWidth">
+            <summary>
+                Gets or sets the width of the room.
+            </summary>
+            <value>The width of the room.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.CoinDoorPlaceReceiveEvent">
+            <summary>
+                Class Coin Door Place Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.CoinDoorPlaceReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.CoinDoorPlaceReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CoinDoorPlaceReceiveEvent.Layer">
+            <summary>
+                Gets the layer.
+            </summary>
+            <value>The layer.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CoinDoorPlaceReceiveEvent.Block">
+            <summary>
+                Gets or sets the coin door block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CoinDoorPlaceReceiveEvent.CoinsToOpen">
+            <summary>
+                Gets or sets the amount of coins that is needed to open the coin door.
+            </summary>
+            <value>The coins to open.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CoinDoorPlaceReceiveEvent.PosX">
+            <summary>
+                Gets or sets the position x of the player.
+            </summary>
+            <value>The position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CoinDoorPlaceReceiveEvent.PosY">
+            <summary>
+                Gets or sets the position y of the player.
+            </summary>
+            <value>The position y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CoinDoorPlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+            <exception cref="T:System.NotSupportedException">Can not set Layer on this kind of block</exception>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CoinDoorPlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.CoinReceiveEvent">
+            <summary>
+                Class Coin Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.CoinReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.CoinReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CoinReceiveEvent.Coins">
+            <summary>
+                Gets or sets the coins of the player.
+            </summary>
+            <value>The coins.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CoinReceiveEvent.BlueCoins">
+            <summary>
+                Gets or sets the blue coins of the player.
+            </summary>
+            <value>The blue coins.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CoinReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.CrownReceiveEvent">
+            <summary>
+                Class Crown Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.CrownReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.CrownReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.CrownReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.FaceReceiveEvent">
+            <summary>
+                Class Face Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.FaceReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.FaceReceiveEvent"/> class.
+            </summary>
+            <param name="message">The EE message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.FaceReceiveEvent.Face">
+            <summary>
+                Gets or sets the face.
+            </summary>
+            <value>The face.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.FaceReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.GiveDarkWizardReceiveEvent">
+            <summary>
+                Class Give Dark Wizard Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.GiveDarkWizardReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.GiveDarkWizardReceiveEvent"/> class.
+            </summary>
+            <param name="message">The EE message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.GiveFireWizardReceiveEvent">
+            <summary>
+                Class Give Fire Wizard Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.GiveFireWizardReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.GiveFireWizardReceiveEvent"/> class.
+            </summary>
+            <param name="message">The EE message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.GiveGrinchReceiveEvent">
+            <summary>
+                Class Give Grinch Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.GiveGrinchReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.GiveGrinchReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.GiveWitchReceiveEvent">
+            <summary>
+                Class Give Witch Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.GiveWitchReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.GiveWitchReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.GiveWizardReceiveEvent">
+            <summary>
+                Class Give Wizard Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.GiveWizardReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.GiveWizardReceiveEvent"/> class.
+            </summary>
+            <param name="message">The EE message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.GodModeReceiveEvent">
+            <summary>
+                Occurs when a player enters or exits god mode.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.GodModeReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.GodModeReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.GodModeReceiveEvent.IsGod">
+            <summary>
+                Gets or sets a value indicating whether this player is in god mode.
+            </summary>
+            <value><c>true</c> if this player is in god mode; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.GodModeReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.HideKeyReceiveEvent">
+            <summary>
+                Occurs when a key is hidden.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.HideKeyReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.HideKeyReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.HideKeyReceiveEvent.Keys">
+            <summary>
+                Gets or sets the keys.
+            </summary>
+            <value>The keys.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.InfoReceiveEvent">
+            <summary>
+                Occurs when the server sends information pertaining to low-level functions like (a) you were kicked or (b) the room
+                is full or (c) rate limit exceeded.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.InfoReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.InfoReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InfoReceiveEvent.Text">
+            <summary>
+                Gets or sets the text.
+            </summary>
+            <value>The text.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InfoReceiveEvent.Title">
+            <summary>
+                Gets or sets the title.
+            </summary>
+            <value>The title.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.InitReceiveEvent">
+            <summary>
+                Occurs when the player initially joins the room. Contains world information such as title and world content.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.InitReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.InitReceiveEvent"/> class.
+            </summary>
+            <param name="message">The EE message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.AllowPotions">
+            <summary>
+                Gets or sets a value indicating whether the world has potions allowed.
+            </summary>
+            <value><c>true</c> if [allow potions]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.CanEdit">
+            <summary>
+                Gets or sets a value indicating whether this player is allowed to edit.
+            </summary>
+            <value><c>true</c> if this instance can edit; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.Encryption">
+            <summary>
+                Gets or sets the encryption option of the world.
+            </summary>
+            <value>The encryption.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.Gravity">
+            <summary>
+                Gets or sets the gravity of the world.
+            </summary>
+            <value>The gravity.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.IsOwner">
+            <summary>
+                Gets or sets a value indicating whether this player owns the world.
+            </summary>
+            <value><c>true</c> if this player is the owner; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.IsTutorialRoom">
+            <summary>
+                Gets or sets a value indicating whether this world is a tutorial world.
+            </summary>
+            <value><c>true</c> if this world is a tutorial world; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.RoomWidth">
+            <summary>
+                Gets or sets the width of the world.
+            </summary>
+            <value>The width of the room.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.RoomHeight">
+            <summary>
+                Gets or sets the height of the world.
+            </summary>
+            <value>The height of the room.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.SpawnX">
+            <summary>
+                Gets or sets the spawn x coordinate.
+            </summary>
+            <value>The spawn x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.SpawnY">
+            <summary>
+                Gets or sets the spawn y coordinate.
+            </summary>
+            <value>The spawn y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.Username">
+            <summary>
+                Gets or sets the username.
+            </summary>
+            <value>The username.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.CurrentWoots">
+            <summary>
+                Gets or sets the current woots of the world.
+            </summary>
+            <value>The current woots.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.OwnerUsername">
+            <summary>
+                Gets or sets the owner username of the world.
+            </summary>
+            <value>The owner username.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.Plays">
+            <summary>
+                Gets or sets the plays of the world.
+            </summary>
+            <value>The plays.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.TotalWoots">
+            <summary>
+                Gets or sets the total woots of the world.
+            </summary>
+            <value>The total woots.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.WorldName">
+            <summary>
+                Gets or sets the name of the world.
+            </summary>
+            <value>The name of the world.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.CupCake#Messages#Receive#IUserPosReceiveEvent#UserPosX">
+            <summary>
+                Gets or sets the user coordinate x.
+            </summary>
+            <value>The user position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.InitReceiveEvent.CupCake#Messages#Receive#IUserPosReceiveEvent#UserPosY">
+            <summary>
+                Gets or sets the user coordinate y.
+            </summary>
+            <value>The user position y.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.KillReceiveEvent">
+            <summary>
+                Occurs when the player is killed.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.KillReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.KillReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.KillReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.LabelPlaceReceiveEvent">
+            <summary>
+                Occurs when a label is placed in the world.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.LabelPlaceReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.LabelPlaceReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.LabelPlaceReceiveEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.LabelPlaceReceiveEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.LabelPlaceReceiveEvent.Text">
+            <summary>
+                Gets or sets the text.
+            </summary>
+            <value>The text.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.LabelPlaceReceiveEvent.PosX">
+            <summary>
+                Gets or sets the coordinate x.
+            </summary>
+            <value>The coordinate x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.LabelPlaceReceiveEvent.PosY">
+            <summary>
+                Gets or sets the coordinate y.
+            </summary>
+            <value>The coordinate y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.LabelPlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+            <exception cref="T:System.NotSupportedException">Can not set Layer on this kind of block</exception>
+        </member>
+        <member name="P:CupCake.Messages.Receive.LabelPlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.LeftReceiveEvent">
+            <summary>
+                Class Left Receive Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.LeftReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.LeftReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.LeftReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.LevelUpReceiveEvent">
+            <summary>
+                Occurs when a player levels up.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.LevelUpReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.LevelUpReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.LevelUpReceiveEvent.NewClass">
+            <summary>
+                Gets or sets the new class.
+            </summary>
+            <value>The new class.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.LevelUpReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.LostAccessReceiveEvent">
+            <summary>
+                Occurs when a player looses edit access to the world.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.LostAccessReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.LostAccessReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.MagicReceiveEvent">
+            <summary>
+                Occurs when a player increases their magic level.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.MagicReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.MagicReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MagicReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.ModModeReceiveEvent">
+            <summary>
+                Occurs when a player enters or exits moderator mode.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.ModModeReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ModModeReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.ModModeReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.MoveReceiveEvent">
+            <summary>
+                Occurs when a player moves.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.MoveReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.MoveReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.SpaceDown">
+            <summary>
+                Gets or sets a value indicating whether the player is holding down the space bar.
+            </summary>
+            <value><c>true</c> if the space bar is held down; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.Coins">
+            <summary>
+                Gets or sets the coins.
+            </summary>
+            <value>The coins.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.Horizontal">
+            <summary>
+                Gets or sets the horizontal.
+            </summary>
+            <value>The horizontal.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.IsPurple">
+            <summary>
+                Gets or sets a value indicating whether the player toggled a purple switch.
+            </summary>
+            <value><c>true</c> if the player toggled the purple switch; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.ModifierX">
+            <summary>
+                Gets or sets the x modifier.
+            </summary>
+            <value>The modifier x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.ModifierY">
+            <summary>
+                Gets or sets the y modifier.
+            </summary>
+            <value>The modifier y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.SpeedX">
+            <summary>
+                Gets or sets the speed x.
+            </summary>
+            <value>The speed x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.SpeedY">
+            <summary>
+                Gets or sets the speed y.
+            </summary>
+            <value>The speed y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.Vertical">
+            <summary>
+                Gets or sets the vertical.
+            </summary>
+            <value>The vertical.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.BlockX">
+            <summary>
+                Gets the block x.
+            </summary>
+            <value>The block x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.BlockY">
+            <summary>
+                Gets the block y.
+            </summary>
+            <value>The block y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.UserPosX">
+            <summary>
+                Gets or sets the user coordinate x.
+            </summary>
+            <value>The user position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.UserPosY">
+            <summary>
+                Gets or sets the user coordinate y.
+            </summary>
+            <value>The user position y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.MoveReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.PortalPlaceReceiveEvent">
+            <summary>
+                Occurs when a portal is placed in the world.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.PortalPlaceReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.PortalPlaceReceiveEvent"/> class.
+            </summary>
+            <param name="message">The EE message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PortalPlaceReceiveEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PortalPlaceReceiveEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PortalPlaceReceiveEvent.PortalId">
+            <summary>
+                Gets or sets the portal identifier.
+            </summary>
+            <value>The portal identifier.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PortalPlaceReceiveEvent.PortalRotation">
+            <summary>
+                Gets or sets the portal rotation.
+            </summary>
+            <value>The portal rotation.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PortalPlaceReceiveEvent.PortalTarget">
+            <summary>
+                Gets or sets the portal target.
+            </summary>
+            <value>The portal target.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PortalPlaceReceiveEvent.PosX">
+            <summary>
+                Gets or sets the position x.
+            </summary>
+            <value>The position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PortalPlaceReceiveEvent.PosY">
+            <summary>
+                Gets or sets the position y.
+            </summary>
+            <value>The position y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PortalPlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+            <exception cref="T:System.NotSupportedException">Can not set Layer on this kind of block</exception>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PortalPlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.PotionReceiveEvent">
+            <summary>
+                Occurs when a player uses a potion.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.PotionReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.PotionReceiveEvent"/> class.
+            </summary>
+            <param name="message">The EE message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PotionReceiveEvent.Enabled">
+            <summary>
+                Gets or sets a value indicating whether this player used a potion.
+            </summary>
+            <value><c>true</c> if enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PotionReceiveEvent.Potion">
+            <summary>
+                Gets or sets the potion.
+            </summary>
+            <value>The potion.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PotionReceiveEvent.Timeout">
+            <summary>
+                Gets or sets the timeout.
+            </summary>
+            <value>The timeout.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.PotionReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.RefreshShopReceiveEvent">
+            <summary>
+                Occurs when the shop is refreshed.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.RefreshShopReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.ResetReceiveEvent">
+            <summary>
+                Occurs when the level is reset, usually by using "/loadlevel" command.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.ResetReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.RotatablePlaceReceiveEvent">
+            <summary>
+                Occurs when a rotatable block is placed.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.RotatablePlaceReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.RotatablePlaceReceiveEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.RotatablePlaceReceiveEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.RotatablePlaceReceiveEvent.Rotation">
+            <summary>
+                Gets or sets the rotation.
+            </summary>
+            <value>The rotation.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.RotatablePlaceReceiveEvent.PosX">
+            <summary>
+                Gets or sets the position x.
+            </summary>
+            <value>The position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.RotatablePlaceReceiveEvent.PosY">
+            <summary>
+                Gets or sets the position y.
+            </summary>
+            <value>The position y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.RotatablePlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+            <exception cref="T:System.NotSupportedException">Can not set Layer on this kind of block</exception>
+        </member>
+        <member name="P:CupCake.Messages.Receive.RotatablePlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.SaveDoneReceiveEvent">
+            <summary>
+                Occurs when the world is saved.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.SaveDoneReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.SayOldReceiveEvent">
+            <summary>
+                Occurs when an old message is received. Happens when initially joining a world for the messages that were sent
+                before joining the world.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.SayOldReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SayOldReceiveEvent.IsMyFriend">
+            <summary>
+                Gets or sets a value indicating whether this player is my friend.
+            </summary>
+            <value><c>true</c> if this player is my friend; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SayOldReceiveEvent.Text">
+            <summary>
+                Gets or sets the text.
+            </summary>
+            <value>The text.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SayOldReceiveEvent.Username">
+            <summary>
+                Gets or sets the username.
+            </summary>
+            <value>The username.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.SayReceiveEvent">
+            <summary>
+                Occurs when a player sends a chat message.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.SayReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SayReceiveEvent.IsMyFriend">
+            <summary>
+                Gets or sets a value indicating whether this player is my friend.
+            </summary>
+            <value><c>true</c> if this player is my friend; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SayReceiveEvent.Text">
+            <summary>
+                Gets or sets the text.
+            </summary>
+            <value>The text.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SayReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.ShowKeyReceiveEvent">
+            <summary>
+                Occurs when a key becomes visible. (not pressed state)
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.ShowKeyReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.ShowKeyReceiveEvent.Keys">
+            <summary>
+                Gets or sets the keys.
+            </summary>
+            <value>The keys.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.SilverCrownReceiveEvent">
+            <summary>
+                Occurs when a player recieves the silver crown (trophy).
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.SilverCrownReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SilverCrownReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.SoundPlaceReceiveEvent">
+            <summary>
+                Occurs when a sound block is placed.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.SoundPlaceReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SoundPlaceReceiveEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SoundPlaceReceiveEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SoundPlaceReceiveEvent.SoundId">
+            <summary>
+                Gets or sets the sound identifier.
+            </summary>
+            <value>The sound identifier.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SoundPlaceReceiveEvent.PosX">
+            <summary>
+                Gets or sets the position x.
+            </summary>
+            <value>The position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SoundPlaceReceiveEvent.PosY">
+            <summary>
+                Gets or sets the position y.
+            </summary>
+            <value>The position y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SoundPlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+            <exception cref="T:System.NotSupportedException">Can not set Layer on this kind of block</exception>
+        </member>
+        <member name="P:CupCake.Messages.Receive.SoundPlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.TeleportEveryoneReceiveEvent">
+            <summary>
+                Occurs when mutliple players are teleported. This event gets raised for respawns of any kind, including death.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.TeleportEveryoneReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.TeleportEveryoneReceiveEvent.Coordinates">
+            <summary>
+                Gets or sets the coordinates.
+            </summary>
+            <value>The coordinates.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.TeleportEveryoneReceiveEvent.ResetCoins">
+            <summary>
+                Gets or sets a value indicating whether the coins need to be reset.
+            </summary>
+            <value><c>true</c> if the coins need to be reset; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.TeleportUserReceiveEvent">
+            <summary>
+                Occurs when a player is teleported to another location.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.TeleportUserReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.TeleportUserReceiveEvent.BlockX">
+            <summary>
+                Gets the block x.
+            </summary>
+            <value>The block x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.TeleportUserReceiveEvent.BlockY">
+            <summary>
+                Gets the block y.
+            </summary>
+            <value>The block y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.TeleportUserReceiveEvent.UserPosX">
+            <summary>
+                Gets or sets the user coordinate x.
+            </summary>
+            <value>The user position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.TeleportUserReceiveEvent.UserPosY">
+            <summary>
+                Gets or sets the user coordinate y.
+            </summary>
+            <value>The user position y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.TeleportUserReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.UpdateMetaReceiveEvent">
+            <summary>
+                Occurs when the metadata of the world is updated.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.UpdateMetaReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.UpdateMetaReceiveEvent.CurrentWoots">
+            <summary>
+                Gets or sets the current woots of the world.
+            </summary>
+            <value>The current woots.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.UpdateMetaReceiveEvent.OwnerUsername">
+            <summary>
+                Gets or sets the owner username of the world.
+            </summary>
+            <value>The owner username.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.UpdateMetaReceiveEvent.Plays">
+            <summary>
+                Gets or sets the plays of the world.
+            </summary>
+            <value>The plays.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.UpdateMetaReceiveEvent.TotalWoots">
+            <summary>
+                Gets or sets the total woots of the world.
+            </summary>
+            <value>The total woots.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.UpdateMetaReceiveEvent.WorldName">
+            <summary>
+                Gets or sets the name of the world.
+            </summary>
+            <value>The name of the world.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.UpgradeReceiveEvent">
+            <summary>
+                Occurs when the server version has increased.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.UpgradeReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:CupCake.Messages.Receive.WootUpReceiveEvent">
+            <summary>
+                Occurs when a player gives the world a woot.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.WootUpReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.WootUpReceiveEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>The user identifier.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.WorldPortalPlaceReceiveEvent">
+            <summary>
+                Occurs when a world portal is placed in the world.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.WorldPortalPlaceReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.WorldPortalPlaceReceiveEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.WorldPortalPlaceReceiveEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.WorldPortalPlaceReceiveEvent.WorldPortalTarget">
+            <summary>
+                Gets or sets the world portal target.
+            </summary>
+            <value>The world portal target.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.WorldPortalPlaceReceiveEvent.PosX">
+            <summary>
+                Gets or sets the position x.
+            </summary>
+            <value>The position x.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.WorldPortalPlaceReceiveEvent.PosY">
+            <summary>
+                Gets or sets the position y.
+            </summary>
+            <value>The position y.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.WorldPortalPlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>The layer.</value>
+            <exception cref="T:System.NotSupportedException">Can not set Layer on this kind of block</exception>
+        </member>
+        <member name="P:CupCake.Messages.Receive.WorldPortalPlaceReceiveEvent.CupCake#Messages#Receive#IBlockPlaceReceiveEvent#Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>The block.</value>
+        </member>
+        <member name="T:CupCake.Messages.Receive.WriteReceiveEvent">
+            <summary>
+                Occurs when a non-player message is received. (System messages, etc.)
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Receive.WriteReceiveEvent.#ctor(PlayerIOClient.Message)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Receive.ReceiveEvent"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="P:CupCake.Messages.Receive.WriteReceiveEvent.Text">
+            <summary>
+                Gets or sets the text.
+            </summary>
+            <value>The text.</value>
+        </member>
+        <member name="P:CupCake.Messages.Receive.WriteReceiveEvent.Title">
+            <summary>
+                Gets or sets the title.
+            </summary>
+            <value>The title.</value>
+        </member>
+        <member name="T:CupCake.Messages.Send.AccessSendEvent">
+            <summary>
+                Class Access Send Event.
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.AccessSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.AccessSendEvent.EditKey">
+            <summary>
+                Gets or sets the edit key.
+            </summary>
+            <value>
+                The edit key.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.AllowPotionsSendEvent">
+            <summary>
+                Class Allow Potions Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.AllowPotionsSendEvent.#ctor(System.Boolean)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.AllowPotionsSendEvent"/> class.
+            </summary>
+            <param name="allowed">if set to <c>true</c> then potions are allowed.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.AllowPotionsSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.AllowPotionsSendEvent.Allowed">
+            <summary>
+                Gets or sets a value indicating whether potions are allowed.
+            </summary>
+            <value>
+                <c>true</c> if potions are allowed; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.AutoSaySendEvent">
+            <summary>
+                Class Auto Say Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.AutoSaySendEvent.#ctor(CupCake.Messages.User.AutoText)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.AutoSaySendEvent"/> class.
+            </summary>
+            <param name="text">The text.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.AutoSaySendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.AutoSaySendEvent.Text">
+            <summary>
+                Gets or sets the text.
+            </summary>
+            <value>
+                The text.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.BlockPlaceSendEvent">
+            <summary>
+                Class Block Place Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.BlockPlaceSendEvent.#ctor(CupCake.Messages.Blocks.Layer,System.Int32,System.Int32,CupCake.Messages.Blocks.Block)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.BlockPlaceSendEvent"/> class.
+            </summary>
+            <param name="layer">The layer.</param>
+            <param name="x">The x-coordinate.</param>
+            <param name="y">The y-coordinate.</param>
+            <param name="block">The block.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.BlockPlaceSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.BlockPlaceSendEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>
+                The block.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.BlockPlaceSendEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>
+                The layer.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.BlockPlaceSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.BlockPlaceSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.BlockPlaceSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.ChangeFaceSendEvent">
+            <summary>
+                Class Change Face Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.ChangeFaceSendEvent.#ctor(CupCake.Messages.User.Smiley)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.ChangeFaceSendEvent"/> class.
+            </summary>
+            <param name="face">The face.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.ChangeFaceSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.ChangeFaceSendEvent.Face">
+            <summary>
+                Gets or sets the face.
+            </summary>
+            <value>
+                The face.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.ChangeFaceSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.ChangeWorldEditKeySendEvent">
+            <summary>
+                Class Change World Edit Key Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.ChangeWorldEditKeySendEvent.#ctor(System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.ChangeWorldEditKeySendEvent"/> class.
+            </summary>
+            <param name="editKey">The edit key.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.ChangeWorldEditKeySendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.ChangeWorldEditKeySendEvent.EditKey">
+            <summary>
+                Gets or sets the edit key.
+            </summary>
+            <value>
+                The edit key.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.ChangeWorldNameSendEvent">
+            <summary>
+                Class Change World Name Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.ChangeWorldNameSendEvent.#ctor(System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.ChangeWorldNameSendEvent"/> class.
+            </summary>
+            <param name="worldName">Name of the world.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.ChangeWorldNameSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.ChangeWorldNameSendEvent.WorldName">
+            <summary>
+                Gets or sets the name of the world.
+            </summary>
+            <value>
+                The name of the world.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.CheckpointSendEvent">
+            <summary>
+                Class Checkpoint Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.CheckpointSendEvent.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.CheckpointSendEvent"/> class.
+            </summary>
+            <param name="x">The x-coordinate.</param>
+            <param name="y">The y-coordinate.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.CheckpointSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.CheckpointSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.CheckpointSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.ClearWorldSendEvent">
+            <summary>
+                Class Clear World Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.ClearWorldSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CupCake.Messages.Send.CoinDoorPlaceSendEvent">
+            <summary>
+                Class CoinDoor Place Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.CoinDoorPlaceSendEvent.#ctor(CupCake.Messages.Blocks.Layer,System.Int32,System.Int32,CupCake.Messages.Blocks.CoinDoorBlock,System.UInt32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.CoinDoorPlaceSendEvent"/> class.
+            </summary>
+            <param name="layer">The layer.</param>
+            <param name="x">The x-coordinate.</param>
+            <param name="y">The y-coordinate.</param>
+            <param name="block">The block.</param>
+            <param name="coinsToCollect">The number of coins to collect.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.CoinDoorPlaceSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.CoinDoorPlaceSendEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>
+                The block.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.CoinDoorPlaceSendEvent.CoinsToCollect">
+            <summary>
+                Gets or sets the number of coins to collect.
+            </summary>
+            <value>
+                The number of coins to collect.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.CoinDoorPlaceSendEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>
+                The layer.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.CoinDoorPlaceSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.CoinDoorPlaceSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.CoinDoorPlaceSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.CoinSendEvent">
+            <summary>
+                Class Coin Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.CoinSendEvent.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.CoinSendEvent"/> class.
+            </summary>
+            <param name="coins">The number of coins the player has.</param>
+            <param name="coinX">The coin x-coordinate.</param>
+            <param name="coinY">The coin y-coordinate.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.CoinSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.CoinSendEvent.CoinX">
+            <summary>
+                Gets or sets the coin x-coordinate.
+            </summary>
+            <value>
+                The coin x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.CoinSendEvent.CoinY">
+            <summary>
+                Gets or sets the coin y-coordinate.
+            </summary>
+            <value>
+                The coin y-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.CoinSendEvent.Coins">
+            <summary>
+                Gets or sets the number of yellow coins the player has.
+            </summary>
+            <value>
+                The number of yellow coins the player has.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.CoinSendEvent.BlueCoins">
+            <summary>
+                Gets or sets the number of blue coins the player has.
+            </summary>
+            <value>
+                The number of blue coins the player has.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.CompleteLevelSendEvent">
+            <summary>
+                Class Complete Level Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.CompleteLevelSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CupCake.Messages.Send.DeathSendEvent">
+            <summary>
+                Class Death Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.DeathSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CupCake.Messages.Send.GetCrownSendEvent">
+            <summary>
+                Class Get Crown Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.GetCrownSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.GetCrownSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.GodModeSendEvent">
+            <summary>
+                Class GodMode Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.GodModeSendEvent.#ctor(System.Boolean)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.GodModeSendEvent"/> class.
+            </summary>
+            <param name="godModeEnabled">if set to <c>true</c> then god mode enabled.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.GodModeSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.GodModeSendEvent.GodModeEnabled">
+            <summary>
+                Gets or sets a value indicating whether god mode is enabled.
+            </summary>
+            <value>
+                <c>true</c> if god mode is enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.Init2SendEvent">
+            <summary>
+                Class Init2 Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.Init2SendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CupCake.Messages.Send.InitSendEvent">
+            <summary>
+                Class Init Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.InitSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CupCake.Messages.Send.KillWorldSendEvent">
+            <summary>
+                Class Kill World Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.KillWorldSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CupCake.Messages.Send.LabelPlaceSendEvent">
+            <summary>
+                Class Label Place Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.LabelPlaceSendEvent.#ctor(CupCake.Messages.Blocks.Layer,System.Int32,System.Int32,CupCake.Messages.Blocks.LabelBlock,System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.LabelPlaceSendEvent"/> class.
+            </summary>
+            <param name="layer">The layer.</param>
+            <param name="x">The x-coordinate.</param>
+            <param name="y">The y-coordinate.</param>
+            <param name="block">The block.</param>
+            <param name="text">The text.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.LabelPlaceSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.LabelPlaceSendEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>
+                The block.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.LabelPlaceSendEvent.Text">
+            <summary>
+                Gets or sets the text.
+            </summary>
+            <value>
+                The text.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.LabelPlaceSendEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>
+                The layer.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.LabelPlaceSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.LabelPlaceSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.LabelPlaceSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.ModModeSendEvent">
+            <summary>
+                Class Mod Mode Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.ModModeSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CupCake.Messages.Send.MoveSendEvent">
+            <summary>
+                Class Move Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.MoveSendEvent.#ctor(System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.MoveSendEvent"/> class.
+            </summary>
+            <param name="posX">The x-coordinate of the position.</param>
+            <param name="posY">The y-coordinate of the position.</param>
+            <param name="speedX">The horizontal speed.</param>
+            <param name="speedY">The vertical speed.</param>
+            <param name="modifierX">The horizontal speed modifier.</param>
+            <param name="modifierY">The vertical speed modifier.</param>
+            <param name="horizontal">The horizontal speed direction.</param>
+            <param name="vertical">The vertical speed direction.</param>
+            <param name="gravityMultiplier">The gravity multiplier.</param>
+            <param name="spaceDown">if set to <c>true</c> then spacebar is pressed.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.MoveSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.MoveSendEvent.GravityMultiplier">
+            <summary>
+                Gets or sets the gravity multiplier.
+            </summary>
+            <value>
+                The gravity multiplier.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.MoveSendEvent.SpaceDown">
+            <summary>
+                Gets or sets a value indicating whether spacebar is pressed.
+            </summary>
+            <value>
+                <c>true</c> if spacebar is pressed; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.MoveSendEvent.Horizontal">
+            <summary>
+                Gets or sets the horizontal speed direction.
+            </summary>
+            <value>
+                The horizontal speed direction.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.MoveSendEvent.Vertical">
+            <summary>
+                Gets or sets the vertical speed direction.
+            </summary>
+            <value>
+                The vertical speed direction.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.MoveSendEvent.ModifierX">
+            <summary>
+                Gets or sets the horizontal speed modifier.
+            </summary>
+            <value>
+                The horizontal speed modifier.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.MoveSendEvent.ModifierY">
+            <summary>
+                Gets or sets the vertical speed modifier.
+            </summary>
+            <value>
+                The vertical speed modifier.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.MoveSendEvent.PosX">
+            <summary>
+                Gets or sets the x-coordinate of the position.
+            </summary>
+            <value>
+                The x-coordinate of the position.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.MoveSendEvent.PosY">
+            <summary>
+                Gets or sets the y-coordinate of the position.
+            </summary>
+            <value>
+                The y-coordinate of the position.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.MoveSendEvent.SpeedX">
+            <summary>
+                Gets or sets the horizontal speed.
+            </summary>
+            <value>
+                The horizontal speed.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.MoveSendEvent.SpeedY">
+            <summary>
+                Gets or sets the vertical speed.
+            </summary>
+            <value>
+                The vertical speed.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.PortalPlaceSendEvent">
+            <summary>
+                Class Portal Place Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.PortalPlaceSendEvent.#ctor(CupCake.Messages.Blocks.Layer,System.Int32,System.Int32,CupCake.Messages.Blocks.PortalBlock,System.UInt32,System.UInt32,CupCake.Messages.Blocks.PortalRotation)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.PortalPlaceSendEvent"/> class.
+            </summary>
+            <param name="layer">The layer.</param>
+            <param name="x">The x-coordinate.</param>
+            <param name="y">The y-coordinate.</param>
+            <param name="block">The block.</param>
+            <param name="portalId">The portal identifier.</param>
+            <param name="portalTarget">The portal target.</param>
+            <param name="portalRotation">The portal rotation.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.PortalPlaceSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.PortalPlaceSendEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>
+                The block.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.PortalPlaceSendEvent.PortalRotation">
+            <summary>
+                Gets or sets the portal rotation.
+            </summary>
+            <value>
+                The portal rotation.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.PortalPlaceSendEvent.PortalId">
+            <summary>
+                Gets or sets the portal identifier.
+            </summary>
+            <value>
+                The portal identifier.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.PortalPlaceSendEvent.PortalTarget">
+            <summary>
+                Gets or sets the portal target.
+            </summary>
+            <value>
+                The portal target.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.PortalPlaceSendEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>
+                The layer.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.PortalPlaceSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.PortalPlaceSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.PortalPlaceSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.PotionSendEvent">
+            <summary>
+                Class Potion Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.PotionSendEvent.#ctor(CupCake.Messages.User.Potion)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.PotionSendEvent"/> class.
+            </summary>
+            <param name="potion">The potion.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.PotionSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.PotionSendEvent.Potion">
+            <summary>
+                Gets or sets the potion.
+            </summary>
+            <value>
+                The potion.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.PotionSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.PressBlueKeySendEvent">
+            <summary>
+                Class Press Blue Key Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.PressBlueKeySendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.PressBlueKeySendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.PressGreenKeySendEvent">
+            <summary>
+                Press Green Key Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.PressGreenKeySendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.PressGreenKeySendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.PressRedKeySendEvent">
+            <summary>
+                Class Press Red Key Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.PressRedKeySendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.PressRedKeySendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.RotatablePlaceSendEvent">
+            <summary>
+                Class Rotatable Place Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.RotatablePlaceSendEvent.#ctor(CupCake.Messages.Blocks.Layer,System.Int32,System.Int32,CupCake.Messages.Blocks.RotatableBlock,System.UInt32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.RotatablePlaceSendEvent"/> class.
+            </summary>
+            <param name="layer">The layer.</param>
+            <param name="x">The x-coordinate.</param>
+            <param name="y">The y-coordinate.</param>
+            <param name="block">The block.</param>
+            <param name="rotation">The rotation.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.RotatablePlaceSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.RotatablePlaceSendEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>
+                The block.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.RotatablePlaceSendEvent.Rotation">
+            <summary>
+                Gets or sets the rotation.
+            </summary>
+            <value>
+                The rotation.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.RotatablePlaceSendEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>
+                The layer.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.RotatablePlaceSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.RotatablePlaceSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.RotatablePlaceSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.SaveWorldSendEvent">
+            <summary>
+                Class Save World Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.SaveWorldSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CupCake.Messages.Send.SaySendEvent">
+            <summary>
+                Class Say Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.SaySendEvent.#ctor(System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.SaySendEvent"/> class.
+            </summary>
+            <param name="text">The text.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.SaySendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.SaySendEvent.Text">
+            <summary>
+                Gets or sets the text.
+            </summary>
+            <value>
+                The text.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.SoundPlaceSendEvent">
+            <summary>
+                Class Sound Place Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.SoundPlaceSendEvent.#ctor(CupCake.Messages.Blocks.Layer,System.Int32,System.Int32,CupCake.Messages.Blocks.SoundBlock,System.UInt32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.SoundPlaceSendEvent"/> class.
+            </summary>
+            <param name="layer">The layer.</param>
+            <param name="x">The x-coordinate.</param>
+            <param name="y">The y-coordinate.</param>
+            <param name="block">The block.</param>
+            <param name="soundId">The sound identifier.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.SoundPlaceSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.SoundPlaceSendEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>
+                The block.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.SoundPlaceSendEvent.SoundId">
+            <summary>
+                Gets or sets the sound identifier.
+            </summary>
+            <value>
+                The sound identifier.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.SoundPlaceSendEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>
+                The layer.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.SoundPlaceSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.SoundPlaceSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.SoundPlaceSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.TouchCakeSendEvent">
+            <summary>
+                Class Touch Cake Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.TouchCakeSendEvent.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.TouchCakeSendEvent"/> class.
+            </summary>
+            <param name="x">The x-coordinate.</param>
+            <param name="y">The y-coordinate.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.TouchCakeSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.TouchCakeSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.TouchCakeSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.TouchDiamondSendEvent">
+            <summary>
+                Class Touch Diamond Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.TouchDiamondSendEvent.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.TouchDiamondSendEvent"/> class.
+            </summary>
+            <param name="x">The x-coordinate.</param>
+            <param name="y">The y-coordinate.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.TouchDiamondSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.TouchDiamondSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.TouchDiamondSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.TouchUserSendEvent">
+            <summary>
+                Touch User Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.TouchUserSendEvent.#ctor(System.Int32,CupCake.Messages.User.Potion)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.TouchUserSendEvent"/> class.
+            </summary>
+            <param name="userId">The user identifier.</param>
+            <param name="reason">The reason (transferred potion).</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.TouchUserSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.TouchUserSendEvent.Reason">
+            <summary>
+                Gets or sets the reason (transferred potion).
+            </summary>
+            <value>
+                The reason (transferred potion).
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.TouchUserSendEvent.UserId">
+            <summary>
+                Gets or sets the user identifier.
+            </summary>
+            <value>
+                The user identifier.
+            </value>
+        </member>
+        <member name="T:CupCake.Messages.Send.WootUpSendEvent">
+            <summary>
+                Class Woot Up Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.WootUpSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CupCake.Messages.Send.WorldPortalPlaceSendEvent">
+            <summary>
+                Class World Portal Place Send Event
+            </summary>
+        </member>
+        <member name="M:CupCake.Messages.Send.WorldPortalPlaceSendEvent.#ctor(CupCake.Messages.Blocks.Layer,System.Int32,System.Int32,CupCake.Messages.Blocks.WorldPortalBlock,System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Messages.Send.WorldPortalPlaceSendEvent"/> class.
+            </summary>
+            <param name="layer">The layer.</param>
+            <param name="x">The x-coordinate.</param>
+            <param name="y">The y-coordinate.</param>
+            <param name="block">The block.</param>
+            <param name="worldPortalTarget">The world portal target.</param>
+        </member>
+        <member name="M:CupCake.Messages.Send.WorldPortalPlaceSendEvent.GetMessage">
+            <summary>
+                Gets the PlayerIO message representing the data in this <see cref="T:CupCake.Messages.Send.SendEvent"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CupCake.Messages.Send.WorldPortalPlaceSendEvent.Block">
+            <summary>
+                Gets or sets the block.
+            </summary>
+            <value>
+                The block.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.WorldPortalPlaceSendEvent.WorldPortalTarget">
+            <summary>
+                Gets or sets the world portal target.
+            </summary>
+            <value>
+                The world portal target.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.WorldPortalPlaceSendEvent.Layer">
+            <summary>
+                Gets or sets the layer.
+            </summary>
+            <value>
+                The layer.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.WorldPortalPlaceSendEvent.X">
+            <summary>
+                Gets or sets the x-coordinate.
+            </summary>
+            <value>
+                The x-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.WorldPortalPlaceSendEvent.Y">
+            <summary>
+                Gets or sets the y-coordinate.
+            </summary>
+            <value>
+                The y-coordinate.
+            </value>
+        </member>
+        <member name="P:CupCake.Messages.Send.WorldPortalPlaceSendEvent.Encryption">
+            <summary>
+                Gets or sets the encryption string.
+            </summary>
+            <value>
+                The encryption string.
+            </value>
+        </member>
+    </members>
+</doc>

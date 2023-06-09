@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CupCake</name>
+    </assembly>
+    <members>
+        <member name="T:CupCake.Chatter">
+            <summary>
+                Class Chatter.
+                Wraps a ChatService class and outputs customized messages with the given prefix.
+            </summary>
+        </member>
+        <member name="M:CupCake.Chatter.#ctor(CupCake.Chat.ChatService,System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Chatter"/> class.
+            </summary>
+            <param name="chatService">The chat service being wrapped.</param>
+            <param name="name">The prefix used for sending messages.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Chat(System.String)">
+            <summary>
+                Sends the specified chat message with the current chat style.
+            </summary>
+            <param name="msg">The chat message.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Chat(System.String,System.Object[])">
+            <summary>
+                Sends the specified chat message with the current chat style.
+            </summary>
+            <param name="msg">The chat message.</param>
+            <param name="args">The object array that contains zero or more items to format.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Send(System.String)">
+            <summary>
+                Sends the specified chat message without formatting.
+            </summary>
+            <param name="msg">The chat message.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Send(System.String,System.Object[])">
+            <summary>
+                Sends the specified chat message without formatting.
+            </summary>
+            <param name="msg">The chat message.</param>
+            <param name="args">The object array that contains zero or more items to format.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Reply(System.String,System.String)">
+            <summary>
+                Sends a message with reply formatting, targeting the specified username.
+            </summary>
+            <param name="username">The username.</param>
+            <param name="msg">The chat message.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Reply(System.String,System.String,System.Object[])">
+            <summary>
+                Sends a message with reply formatting, targeting the specified username.
+            </summary>
+            <param name="username">The username.</param>
+            <param name="msg">The chat message.</param>
+            <param name="args">The object array that contains zero or more items to format.</param>
+        </member>
+        <member name="M:CupCake.Chatter.GiveEdit(System.String)">
+            <summary>
+                Gives edit to the specified username.
+            </summary>
+            <param name="username">The username.</param>
+        </member>
+        <member name="M:CupCake.Chatter.RemoveEdit(System.String)">
+            <summary>
+                Removes edit from the specified username.
+            </summary>
+            <param name="username">The username.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Teleport(System.String)">
+            <summary>
+                Teleports the specified username to the bot's location. (/teleport &lt;username&gt;).
+            </summary>
+            <param name="username">The username.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Teleport(System.String,System.Int32,System.Int32)">
+            <summary>
+                Teleports the specified username. (/teleport &lt;username&gt; &lt;x&gt; &lt;y&gt;).
+            </summary>
+            <param name="username">The username.</param>
+            <param name="x">The x.</param>
+            <param name="y">The y.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Kick(System.String)">
+            <summary>
+                Kicks the specified username. (/kick &lt;username&gt;).
+            </summary>
+            <param name="username">The username.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Kick(System.String,System.String)">
+            <summary>
+                Kicks the specified username. (/kick &lt;username&gt; &lt;reason&gt;).
+            </summary>
+            <param name="username">The username.</param>
+            <param name="reason">The kick reason.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Kick(System.String,System.String,System.Object[])">
+            <summary>
+                Kicks the specified username. (/kick &lt;username&gt; &lt;reason&gt;).
+            </summary>
+            <param name="username">The username.</param>
+            <param name="reason">The kick reason.</param>
+            <param name="args">The object array that contains zero or more items to format.</param>
+        </member>
+        <member name="M:CupCake.Chatter.KickGuests">
+            <summary>
+                Silently kicks all guests (/kickguests).
+            </summary>
+        </member>
+        <member name="M:CupCake.Chatter.Kill(System.String)">
+            <summary>
+                Kills the specified username. (/kill &lt;username&gt;).
+            </summary>
+            <param name="username">The username.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Mute(System.String)">
+            <summary>
+                Mutes the specified username. (/mute &lt;username&gt;).
+            </summary>
+            <param name="username">The username.</param>
+        </member>
+        <member name="M:CupCake.Chatter.Unmute(System.String)">
+            <summary>
+                Unmutes the specified username. (/unmute &lt;username&gt;).
+            </summary>
+            <param name="username">The username.</param>
+        </member>
+        <member name="M:CupCake.Chatter.ReportAbuse(System.String,System.String)">
+            <summary>
+                Reports the specified user with the given reason (/reportabuse &lt;username&gt; &lt;reason&gt;).
+            </summary>
+            <param name="username">The username.</param>
+            <param name="reason">The reason.</param>
+        </member>
+        <member name="M:CupCake.Chatter.KillAll">
+            <summary>
+                Kills all the users in the world (/killemall).
+            </summary>
+        </member>
+        <member name="M:CupCake.Chatter.Reset">
+            <summary>
+                Resets all the users' positions (/reset).
+            </summary>
+        </member>
+        <member name="M:CupCake.Chatter.Respawn">
+            <summary>
+                Respawns the bot (/respawn).
+            </summary>
+        </member>
+        <member name="M:CupCake.Chatter.RespawnAll">
+            <summary>
+                Respawns all users in the world (/respawnall).
+            </summary>
+        </member>
+        <member name="M:CupCake.Chatter.PotionsOn(System.String[])">
+            <summary>
+                Enables the given potions (/potionson &lt;potion1&gt; &lt;potion2&gt; ...).
+            </summary>
+            <param name="potions">The potions.</param>
+        </member>
+        <member name="M:CupCake.Chatter.PotionsOn(System.Int32[])">
+            <summary>
+                Enables the given potions (/potionson &lt;potion1&gt; &lt;potion2&gt; ...).
+            </summary>
+            <param name="potions">The potions.</param>
+        </member>
+        <member name="M:CupCake.Chatter.PotionsOn(CupCake.Messages.User.Potion[])">
+            <summary>
+                Enables the given potions (/potionson &lt;potion1&gt; &lt;potion2&gt; ...).
+            </summary>
+            <param name="potions">The potions.</param>
+        </member>
+        <member name="M:CupCake.Chatter.PotionsOff(System.String[])">
+            <summary>
+                Disables the given potions (/potionsoff &lt;potion1&gt; &lt;potion2&gt; ...).
+            </summary>
+            <param name="potions">The potions.</param>
+        </member>
+        <member name="M:CupCake.Chatter.PotionsOff(System.Int32[])">
+            <summary>
+                Disables the given potions (/potionsoff &lt;potion1&gt; &lt;potion2&gt; ...).
+            </summary>
+            <param name="potions">The potions.</param>
+        </member>
+        <member name="M:CupCake.Chatter.PotionsOff(CupCake.Messages.User.Potion[])">
+            <summary>
+                Disables the given potions (/potionsoff &lt;potion1&gt; &lt;potion2&gt; ...).
+            </summary>
+            <param name="potions">The potions.</param>
+        </member>
+        <member name="M:CupCake.Chatter.ChangeVisibility(System.Boolean)">
+            <summary>
+                Changes the visibility of the room (/visible &lt;visible&gt;).
+            </summary>
+            <param name="visible">if set to <c>true</c> [visible].</param>
+        </member>
+        <member name="M:CupCake.Chatter.LoadLevel">
+            <summary>
+                Loads the level to the most recent saved version (/loadlevel).
+            </summary>
+        </member>
+        <member name="P:CupCake.Chatter.ChatService">
+            <summary>
+                Gets the chat service.
+            </summary>
+            <value>The chat service.</value>
+        </member>
+        <member name="P:CupCake.Chatter.Name">
+            <summary>
+                Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="T:CupCake.CommandManager">
+            <summary>
+                Class CommandManager.
+            </summary>
+        </member>
+        <member name="T:CupCake.CupCakeMuffinPart`1">
+            <summary>
+                Class CupCakeMuffinPart.
+            </summary>
+            <typeparam name="TProtocol">The type of the protocol.</typeparam>
+        </member>
+        <member name="M:CupCake.CupCakeMuffinPart`1.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.CupCakeMuffinPart`1"/> class.
+            </summary>
+        </member>
+        <member name="M:CupCake.CupCakeMuffinPart`1.Enable(MuffinFramework.Muffins.MuffinArgs)">
+            <summary>
+                Enables the specified arguments.
+            </summary>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="M:CupCake.CupCakeMuffinPart`1.GetName">
+            <summary>
+                Gets the name displayed in chat and log messages.
+            </summary>
+            <returns>This plugin's name.</returns>
+        </member>
+        <member name="M:CupCake.CupCakeMuffinPart`1.Dispose(System.Boolean)">
+            <summary>
+                Releases unmanaged and - optionally - managed resources.
+            </summary>
+            <param name="disposing">
+                <c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only
+                unmanaged resources.
+            </param>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.Events">
+            <summary>
+                Gets the events manager.
+            </summary>
+            <value>The events manager.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.ConnectionPlatform">
+            <summary>
+                Gets the connection platform.
+            </summary>
+            <value>The connection platform.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.SynchronizePlatform">
+            <summary>
+                Gets the synchronize platform.
+            </summary>
+            <value>The synchronize platform.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.Logger">
+            <summary>
+                Gets the logger.
+            </summary>
+            <value>The logger.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.Chatter">
+            <summary>
+                Gets the chatter.
+            </summary>
+            <value>The chatter.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.WorldService">
+            <summary>
+                Gets the world service.
+            </summary>
+            <value>The world service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.RoomService">
+            <summary>
+                Gets the room service.
+            </summary>
+            <value>The room service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.PlayerService">
+            <summary>
+                Gets the player service.
+            </summary>
+            <value>The player service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.KeyService">
+            <summary>
+                Gets the key service.
+            </summary>
+            <value>The key service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.UploadService">
+            <summary>
+                Gets the upload service.
+            </summary>
+            <value>The upload service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.PotionService">
+            <summary>
+                Gets the potion service.
+            </summary>
+            <value>The potion service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.ActionService">
+            <summary>
+                Gets the action service.
+            </summary>
+            <value>The action service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.MessageService">
+            <summary>
+                Gets the message service.
+            </summary>
+            <value>The message service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.CommandService">
+            <summary>
+                Gets the command service.
+            </summary>
+            <value>The command service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.IOService">
+            <summary>
+                Gets the io service.
+            </summary>
+            <value>The io service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.StatusService">
+            <summary>
+                Gets the status service.
+            </summary>
+            <value>The status service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.PermissionService">
+            <summary>
+                Gets the permission service.
+            </summary>
+            <value>The permission service.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.StoragePlatform">
+            <summary>
+                Gets the storage platform.
+            </summary>
+            <value>The storage platform.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.MetadataPlatform">
+            <summary>
+                Gets the metadata platform
+            </summary>
+            <value>The metadata platform.</value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.HostService">
+            <summary>
+                Gets the host service.
+            </summary>
+            <value>
+                The host service.
+            </value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.Commands">
+            <summary>
+                Gets command service.
+            </summary>
+            <value>
+                The command service.
+            </value>
+        </member>
+        <member name="P:CupCake.CupCakeMuffinPart`1.PhysicsService">
+            <summary>
+            Gets the physics service.
+            </summary>
+            <value>
+            The physics service.
+            </value>
+        </member>
+        <member name="M:CupCake.CommandManager.GetEnumerator">
+            <summary>
+                Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>
+                A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.
+            </returns>
+        </member>
+        <member name="M:CupCake.CommandManager.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+                Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>
+                An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+            </returns>
+        </member>
+        <member name="M:CupCake.CommandManager.Add(System.Action{CupCake.Command.Source.IInvokeSource,CupCake.Command.ParsedCommand})">
+            <summary>
+                Registers the specified command.
+            </summary>
+            <param name="callback">The command.</param>
+            <exception cref="T:System.ArgumentException">Callback has already been added.</exception>
+        </member>
+        <member name="M:CupCake.CommandManager.Contains(System.Action{CupCake.Command.Source.IInvokeSource,CupCake.Command.ParsedCommand})">
+            <summary>
+                Determines whether the specified callback is registered in this <see cref="T:CupCake.CommandManager"/> or not.
+            </summary>
+            <param name="callback">The callback.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CupCake.CommandManager.Remove(System.Action{CupCake.Command.Source.IInvokeSource,CupCake.Command.ParsedCommand})">
+            <summary>
+                Removes the specified callback.
+            </summary>
+            <param name="callback">The callback.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CupCake.CommandManager.Remove(CupCake.ICommand)">
+            <summary>
+                Removes the specified callback.
+            </summary>
+            <param name="callback">The callback.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CupCake.CommandManager.TryGetCommand(System.Action{CupCake.Command.Source.IInvokeSource,CupCake.Command.ParsedCommand},CupCake.ICommand@)">
+            <summary>
+                Tries to get the command object linked with the specified handler.
+            </summary>
+            <param name="callback">The callback.</param>
+            <param name="command">The command.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CupCake.CommandManager.Dispose(System.Boolean)">
+            <summary>
+                Releases unmanaged and - optionally - managed resources.
+            </summary>
+            <param name="disposing">
+                <c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only
+                unmanaged resources.
+            </param>
+        </member>
+        <member name="M:CupCake.CommandManager.Enable">
+            <summary>
+                Enables this instance.
+            </summary>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:CupCake.CupCakeMuffin">
+            <summary>
+                Class CupCakeMuffin.
+            </summary>
+        </member>
+        <member name="T:CupCake.CupCakeMuffin`1">
+            <summary>
+                Class CupCakeMuffin.
+            </summary>
+            <typeparam name="TProtocol">The type of the protocol.</typeparam>
+        </member>
+        <member name="T:CupCake.CupCakeManualMuffin`1">
+            <summary>
+                Class CupCakeManualMuffin.
+            </summary>
+            <typeparam name="TProtocol">The type of the protocol.</typeparam>
+        </member>
+        <member name="T:CupCake.Host.CupCakeComponents">
+            <summary>
+                Represents CupCake components
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.None">
+            <summary>
+                None.
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.Messages">
+            <summary>
+                The CupCake.Messages.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.Keys">
+            <summary>
+                The CupCake.Keys.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.Potions">
+            <summary>
+                The CupCake.Potions.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.Players">
+            <summary>
+                The CupCake.Players.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.Permissions">
+            <summary>
+                The CupCake.Permissions.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.World">
+            <summary>
+                The CupCake.World.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.Room">
+            <summary>
+                The CupCake.Room.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.Chat">
+            <summary>
+                The CupCake.Chat.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.Command">
+            <summary>
+                The CupCake.Command.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.Upload">
+            <summary>
+                The CupCake.Upload.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.Actions">
+            <summary>
+                The CupCake.Actions.dll
+            </summary>
+        </member>
+        <member name="F:CupCake.Host.CupCakeComponents.All">
+            <summary>
+                All CupCake components
+            </summary>
+        </member>
+        <member name="T:CupCake.Host.CupCakeClient">
+            <summary>
+                Class CupCakeClient.
+                Use this client to host CupCake in your own application.
+            </summary>
+        </member>
+        <member name="M:CupCake.Host.CupCakeClient.#ctor(System.ComponentModel.Composition.Primitives.ComposablePartCatalog[])">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Host.CupCakeClient"/> class.
+                Automatically adds the current assembly and every assembly with the format "CupCake.*.dll".
+            </summary>
+            <param name="catalog">The ComposablePartCatalog array that contains zero or more items to add to the catalog.</param>
+        </member>
+        <member name="M:CupCake.Host.CupCakeClient.#ctor(CupCake.Host.CupCakeComponents,System.ComponentModel.Composition.Primitives.ComposablePartCatalog[])">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Host.CupCakeClient"/> class.
+                Automatically loads CupCake.Core.dll and every other specified dll.
+            </summary>
+            <param name="components">The components.</param>
+            <param name="catalog">The catalog.</param>
+        </member>
+        <member name="M:CupCake.Host.CupCakeClient.Start(CupCake.Host.CupCakeClientArgs)">
+            <summary>
+                Starts CupCake and sets the connection to the given one.
+            </summary>
+            <param name="args">The arguments.</param>
+            <exception cref="T:System.ArgumentNullException">connection</exception>
+        </member>
+        <member name="M:CupCake.Host.CupCakeClient.Start">
+            <summary>
+                Starts the client.
+                Obsolete. Use the overload with Connection parameter.
+            </summary>
+            <exception cref="T:System.NotSupportedException">Please provide the connection parameter</exception>
+        </member>
+        <member name="T:CupCake.CupCakeManualMuffin">
+            <summary>
+                Class CupCakeManualMuffin.
+            </summary>
+        </member>
+        <member name="T:CupCake.Host.CupCakeClientArgs">
+            <summary>
+                Class CupCakeClientArgs
+            </summary>
+        </member>
+        <member name="M:CupCake.Host.CupCakeClientArgs.#ctor(PlayerIOClient.Connection,System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:CupCake.Host.CupCakeClientArgs"/> class.
+            </summary>
+            <param name="connection">The connection.</param>
+            <param name="worldId">The world identifier.</param>
+        </member>
+        <member name="P:CupCake.Host.CupCakeClientArgs.Connection">
+            <summary>
+                Gets or sets the connection.
+            </summary>
+            <value>
+                The connection.
+            </value>
+        </member>
+        <member name="P:CupCake.Host.CupCakeClientArgs.WorldId">
+            <summary>
+                Gets the world identifier.
+            </summary>
+            <value>
+                The world identifier.
+            </value>
+        </member>
+        <member name="T:CupCake.ICommand">
+            <summary>
+                Interface ICommand.
+            </summary>
+        </member>
+        <member name="P:CupCake.ICommand.Method">
+            <summary>
+                Gets or sets the method that is called when this command is invoked.
+            </summary>
+            <value>
+                The method that is called when this command is invoked.
+            </value>
+        </member>
+        <member name="P:CupCake.ICommand.Labels">
+            <summary>
+                Gets the labels list set for this command.
+                Usually set through the <see cref="T:CupCake.Command.LabelAttribute"/>.
+            </summary>
+            <value>The labels.</value>
+        </member>
+        <member name="P:CupCake.ICommand.Usages">
+            <summary>
+                Gets the usages strings set for this command.
+                Usually set through the <see cref="T:CupCake.Command.CorrectUsageAttribute"/>.
+            </summary>
+            <value>The usages.</value>
+        </member>
+        <member name="P:CupCake.ICommand.MinArgs">
+            <summary>
+                Gets or sets the minimum arguments.
+                Usually set through the <see cref="T:CupCake.Command.MinArgsAttribute"/>.
+            </summary>
+            <value>The minimum arguments.</value>
+        </member>
+        <member name="P:CupCake.ICommand.MinGroup">
+            <summary>
+                Gets or sets the minimum permission required to execute this command.
+                Usually set through the <see cref="T:CupCake.Command.MinGroupAttribute"/>.
+            </summary>
+            <value>The minimum group.</value>
+        </member>
+        <member name="P:CupCake.ICommand.HighPriority">
+            <summary>
+                Gets a value indicating whether this command is executed with a higher priority.
+            </summary>
+            <value><c>true</c> if [high priority]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:CupCake.ICommand.Callback">
+            <summary>
+                Gets the callback that is called when this command is run.
+            </summary>
+        </member>
+    </members>
+</doc>

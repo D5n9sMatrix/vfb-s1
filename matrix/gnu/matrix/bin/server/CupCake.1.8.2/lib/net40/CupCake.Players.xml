@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CupCake.Players</name>
+    </assembly>
+    <members>
+        <member name="M:CupCake.Players.PlayerUtils.IsGuest(System.String)">
+            <summary>
+                Determines whether the player with the specified username is a guest.
+            </summary>
+            <param name="username">The player's username.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CupCake.Players.PlayerUtils.GetStorageName(System.String)">
+            <summary>
+                Gets the storage name of the specified player.
+            </summary>
+            <param name="username">The player's username.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CupCake.Players.PlayerUtils.GetChatName(System.String)">
+            <summary>
+                Gets the chat name of the specified player.
+            </summary>
+            <param name="username">The player's username.</param>
+            <returns></returns>
+        </member>
+        <member name="T:CupCake.Players.PotionPlayerEvent">
+            <summary>
+                Occurs when a potion has been consumed by a player.
+            </summary>
+            <remarks>
+                This event is raised after a <see cref="T:CupCake.Messages.Receive.PotionReceiveEvent"/> has been raised.
+            </remarks>
+        </member>
+        <member name="T:CupCake.Players.SayPlayerEvent">
+            <summary>
+                Occurs when a player chats in the world.
+            </summary>
+            <remarks>
+                This event is raised after a <see cref="T:CupCake.Messages.Receive.SayReceiveEvent"/> has been raised.
+            </remarks>
+        </member>
+        <member name="T:CupCake.Players.SilverCrownPlayerEvent">
+            <summary>
+                Occurs when a silver crown has been received.
+            </summary>
+            <remarks>
+                This event is raised after a <see cref="T:CupCake.Messages.Receive.SilverCrownReceiveEvent"/> has been raised.
+            </remarks>
+        </member>
+        <member name="T:CupCake.Players.TeleportPlayerEvent">
+            <summary>
+                Occurs when a player gets teleported.
+            </summary>
+            <remarks>
+                This event is raised after a <see cref="T:CupCake.Messages.Receive.TeleportUserReceiveEvent"/> or a
+                <see cref="T:CupCake.Messages.Receive.TeleportEveryoneReceiveEvent"/> has been raised.
+            </remarks>
+        </member>
+        <member name="T:CupCake.Players.WootUpPlayerEvent">
+            <summary>
+                Occurs when a player gives the world a woot.
+            </summary>
+            <remarks>
+                This event is raised after a <see cref="T:CupCake.Messages.Receive.WootUpReceiveEvent"/> has been raised.
+            </remarks>
+        </member>
+        <member name="P:CupCake.Players.Player.Username">
+            <summary>
+                Gets the player's username.
+            </summary>
+            <value>
+                The player's username.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.UserId">
+            <summary>
+                Gets the player's user identifier.
+            </summary>
+            <value>
+                The player's user identifier.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.IsGod">
+            <summary>
+                Gets a value indicating whether this player has god mode enabled.
+            </summary>
+            <value>
+                <c>true</c> if this this player has god mode enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.IsGuardian">
+            <summary>
+                Gets a value indicating whether this player has guardian mode enabled.
+            </summary>
+            <value>
+                <c>true</c> if this player has guardian mode enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.IsMod">
+            <summary>
+                Gets a value indicating whether this player has moderator mode enabled.
+            </summary>
+            <value>
+                <c>true</c> if this player has moderator mode enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.IsDead">
+            <summary>
+                Gets a value indicating whether this player is dead.
+            </summary>
+            <value>
+                <c>true</c> if this player is dead; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.IsMyFriend">
+            <summary>
+                Gets a value indicating whether this player is the bot user's friend.
+            </summary>
+            <value>
+                <c>true</c> if this player is the bot user's friend; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.IsClubMember">
+            <summary>
+                Gets a value indicating whether this player is a Builder's Club member.
+            </summary>
+            <value>
+                <c>true</c> if this player is a Builder's Club member; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.IsDisconnected">
+            <summary>
+                Gets a value indicating whether this player is disconnected.
+            </summary>
+            <value>
+                <c>true</c> if this player is disconnected; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.HasChat">
+            <summary>
+                Gets a value indicating whether this player has chat access.
+            </summary>
+            <value>
+                <c>true</c> if this player has chat access; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.MagicClass">
+            <summary>
+                Gets the player's magic class.
+            </summary>
+            <value>
+                The player's magic class.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.Smiley">
+            <summary>
+                Gets the player's smiley.
+            </summary>
+            <value>
+                The player's smiley.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.Coins">
+            <summary>
+                Gets the player's number of coins.
+            </summary>
+            <value>
+                The player's number of coins.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.BlueCoins">
+            <summary>
+                Gets the player's number of blue coins.
+            </summary>
+            <value>
+                The player's number of blue coins.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.SwitchOpened">
+            <summary>
+                Gets a value indicating whether the player has opened a switch.
+            </summary>
+            <value>
+                <c>true</c> if the player has opened a switch; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.SpawnX">
+            <summary>
+                Gets the x-coordinate of the player's spawn.
+            </summary>
+            <value>
+                The x-coordinate of the player's spawn.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.SpawnY">
+            <summary>
+                Gets the y-coordinate of the player's spawn.
+            </summary>
+            <value>
+                The y-coordinate of the player's spawn.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.PosX">
+            <summary>
+                Gets the x-coordinate of the player's current position.
+            </summary>
+            <value>
+                The x-coordinate of the player's current position.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.PosY">
+            <summary>
+                Gets the y-coordinate of the player's current position.
+            </summary>
+            <value>
+                The y-coordinate of the player's current position.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.SpeedX">
+            <summary>
+                Gets the player's horizontal speed.
+            </summary>
+            <value>
+                The player's horizontal speed.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.SpeedY">
+            <summary>
+                Gets the player's vertical speed.
+            </summary>
+            <value>
+                The player's vertical speed
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.ModifierX">
+            <summary>
+                Gets the player's horizontal speed modifier.
+            </summary>
+            <value>
+                The player's horizontal speed modifier.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.ModifierY">
+            <summary>
+                Gets the player's vertical speed modifier.
+            </summary>
+            <value>
+                The player's vertical speed modifier.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.Horizontal">
+            <summary>
+                Gets the player's horizontal speed direction.
+            </summary>
+            <value>
+                The player's horizontal speed direction.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.Vertical">
+            <summary>
+                Gets the player's vertical speed direction.
+            </summary>
+            <value>
+                The player's vertical speed direction.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.SpaceDown">
+            <summary>
+                Gets or sets a value indicating whether the player is pressing spacebar.
+            </summary>
+            <value>
+                <c>true</c> if the player is pressing spacebar; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.Say">
+            <summary>
+                Gets the player's latest regular chat message.
+            </summary>
+            <value>
+                The player's latest regular chat message.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.AutoText">
+            <summary>
+                Gets the player's latest AutoText chat message.
+            </summary>
+            <value>
+                The player's latest AutoText chat message.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.HasSilverCrown">
+            <summary>
+                Gets a value indicating whether this player has a silver crown.
+            </summary>
+            <value>
+                <c>true</c> if this player has a silver crown; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.HasWooted">
+            <summary>
+                Gets a value indicating whether this player has wooted the level.
+            </summary>
+            <value>
+                <c>true</c> if this player has wooted the level; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.LastPotion">
+            <summary>
+                Gets the player's last used potion.
+            </summary>
+            <value>
+                The player's last used potion.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.LastPotionEnabled">
+            <summary>
+                Gets a value indicating whether the player's last potion was enabled.
+            </summary>
+            <value>
+                <c>true</c> if the player's last potion was enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.LastPotionTimeout">
+            <summary>
+                Gets the timeout for the player's last potion.
+            </summary>
+            <value>
+                The timeout for the player's last potion.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.HasCrown">
+            <summary>
+                Gets a value indicating whether this player has a crown.
+            </summary>
+            <value>
+                <c>true</c> if this player has a crown; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.IsFlying">
+            <summary>
+                Gets a value indicating whether this player is flying using god mode, guardian mode or moderator mode.
+            </summary>
+            <value>
+                <c>true</c> if this player is flying using god mode, guardian mode or moderator mode; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.IsGuest">
+            <summary>
+                Gets a value indicating whether this player is a guest.
+            </summary>
+            <value>
+                <c>true</c> if this player is a guest; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.StorageName">
+            <summary>
+                Gets the player's storage name.
+            </summary>
+            <value>
+                The player's storage name.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.ChatName">
+            <summary>
+                Gets the player's chat name.
+            </summary>
+            <value>
+                The player's chat name.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.BlockX">
+            <summary>
+                Gets the x-coordinate of the block that the player is located on.
+            </summary>
+            <value>
+                The x-coordinate of the block that the player is located on.
+            </value>
+        </member>
+        <member name="P:CupCake.Players.Player.BlockY">
+            <summary>
+                Gets the y-coordinate of the block that the player is located on.
+            </summary>
+            <value>
+                The y-coordinate of the block that the player is located on.
+            </value>
+        </member>
+    </members>
+</doc>
